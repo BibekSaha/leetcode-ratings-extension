@@ -17,6 +17,8 @@ Surface [Zerotrac](https://zerotrac.github.io/leetcode_problem_rating/#/) rating
 ## Demo
 Below is a preview of the extension in action
 
+<img width="1524" height="702" alt="image" src="https://github.com/user-attachments/assets/15d9196c-5a79-481f-a7b6-5a5a36d29e5d" />
+
 ## How to use
 - Build the project by running `npm run build`. This creates a `dist` folder.
 - Load the extension unpacked in Chrome (Developer mode → Load unpacked) and select the `dist` folder.
