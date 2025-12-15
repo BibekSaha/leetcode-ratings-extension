@@ -1,0 +1,22 @@
+{
+  "name": "Leetcode Ratings",
+  "version": "1.0.0",
+  "manifest_version": 3,
+  "description": "Chrome extension for viewing Zerotrac ratings in leetcode problems",
+  "action": {
+    "default_icon": "images/icon.png",
+    "default_popup": "popup.html"
+  },
+  "background": {
+    "service_worker": "background.js"
+  },
+  "permissions": [
+    "scripting"
+  ],
+  "content_scripts": [{
+    "js": ["content.js"],
+    "matches": [
+      "https://leetcode.com/problems/*"
+    ]
+  }]
+}
